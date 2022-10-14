@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+body {
+    background-color: #40b3af;
+}
+
+header {
+    background-color: #40b3af;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    background-color: rgb(224, 255, 255);
+    padding: 5px;
+    border-top: 0.4px solid #000;
+}
+
+footer {
+    background-color: #40b3af;
+    padding: 24px;
+    border-top: 0.4px solid #000;
+    text-align: center;
+}
+
+.titulo-principal {
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    font-size: 20px;
+    color: #003d3b;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+}
+
+.home {
+    font-family: 'Sarala', sans-serif;
+    text-decoration: none;
+    color: #003d3b;
+}
+
+.opcoes {
+    font-family: 'Sarala', sans-serif;
+    text-decoration: none;
+    color: #003d3b;
+}
+
+.empresa {
+    font-family: 'Sarala', sans-serif;
+    text-decoration: none;
+    color: #003d3b;
+}
+
+.contato {
+    font-family: 'Sarala', sans-serif;
+    text-decoration: none;
+    color: #003d3b;
+}
+
+#sobre-empresa {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: #003d3b;
+}
+
+#empresa-main {
+    text-align: center;
+    font-family: 'Sarala', sans-serif
+}
